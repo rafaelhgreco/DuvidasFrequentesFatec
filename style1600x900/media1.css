@@ -1,0 +1,63 @@
+@media screen and (max-width: 1600px) and (max-height: 900px) { 
+
+    #pergunta {
+        position: absolute;
+        left: 1300px;
+        padding-top: 5px;
+    }
+    #login {
+        position: absolute;
+        left: 1300px;
+        padding-top: 5px;
+    }
+
+    button {
+        padding: 10px;
+    }
+
+    .tabuleiro {
+        position: relative;
+        right: 500px;
+        bottom: 200px;
+    }
+
+    h2 {
+        position: absolute;
+        width: 627px;
+        height: 61px;
+        left: 500px;
+        top: -30px;
+       }
+
+    h5 {
+        position: absolute;
+        width: 599px;
+        height: 30px;
+        left: 500px;
+        top: 30px;
+    }
+
+    .txt2 {
+        position: absolute;
+        width: 634px;
+        height: 402px;
+        left: 900px;
+        top: 565px;
+
+    }
+    #duvidasgerais {
+        position: absolute;
+        width: 278px;
+        height: 43px;
+        left: 700px;
+        top: 450px;
+    }
+
+
+
+
+
+
+
+
+}

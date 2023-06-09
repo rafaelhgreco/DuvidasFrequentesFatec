@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Perguntas</title>
+    <link rel="stylesheet" href="stylesprincipal/addperg.css" >
+    <link rel="stylesheet" href="style1600x900/mediadash2.css" >
+    <link rel="stylesheet" href="style1280x720/media1280perguntas.css" >
+</head>
+<body>
+  <header>
+    <p id="painel">Painel Administrativo</p>
+    <a href="dash.html" class="menu-link">
+        <p class="menu-text"><img class="headerlogo" src="imagens/home.png" width="30px">  Início  </p>
+      </a>
+      <a href="addperguntas.html" class="menu-link">
+        <p class="menu-text"><img src="imagens/quest.png" width="30px">  Perguntas  </p>
+      </a>
+      <a href="cadastro.html" class="menu-link">
+        <p class="menu-text"><img src="imagens/edit.png" width="30px">  Cadastro  </p>
+      </a>
+      <a href="equipe.html" class="menu-link">
+        <p class="menu-text"><img src="imagens/supervisor.png" width="30px">  Equipe  </p>
+        </a>
+        
+    </a>
+    <a href="index.html" id="voltar" class="menu-link">
+        <p class="menu-text"><img id="back" src="imagens/keyboard.png" width="30px">  Voltar  </p>
+    </a>
+  </header>
+
+    <ul>
+        <li>
+          <div class="user-profile">
+            <img src="imagens/austin.png">
+            <p>Austin Powers</p>
+        </div>
+        </li>
+        <li><div class="menu-divider"></div></li>
+        <li><a href="configdaconta.html" target="_blank">▼ Configurações da conta</a></li>
+        <li><div class="menu-divider"></div></li>
+        <div class="nav">
+          <li>121</li>
+          <li>Total de perguntas</li>
+        </div>
+        <li><div class="menu-divider"></div></li>
+        <div class="nav">
+          <li>100</li>
+          <li>Perguntas em aberto</li>
+        </div>
+        <li><div class="menu-divider"></div></li>
+        <div class="nav">
+          <li>21</li>
+          <li>Perguntas respondidas</li>
+        </div>
+        <li><img id="fatec" src="imagens/FATEC.png"></li>
+      </ul>
+
+      <table id="perg">
+        <tr>
+          <th id="tituloperg" colspan="3">Adicionar uma pergunta</th>
+        </tr>
+        <tr>
+          <th id="tituloperg2">Título da pergunta</th>
+          <th id="tituloperg2">Resposta</th>
+        </tr>
+        <tr>
+          <td><input type="text" name="nome"></td>
+          <td><textarea>Escreva a resposta</textarea></td>
+          <td class="botao">
+            <button class="editar">Adicionar</button>
+            <button>Limpar</button>
+          </td>
+        </tr>
+        
+        <tr>
+          <td><input type="text" name="nome"></td>
+          <td><textarea>Escreva a resposta</textarea></td>
+          <td class="botao">
+            <button class="editar">Adicionar</button>
+            <button>Limpar</button>
+          </td>
+        </tr>
+       
+      </table>
+      
+
+      <div id="tabela2">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Admin</th>
+              <th>Pergunta</th>
+              <th>Data criação</th>
+              <th>Data edição</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody class="tbody2">
+            <!-- Aqui você pode adicionar as linhas de dados -->
+            <tr>
+              <td>1</td>
+              <td>John Doe</td>
+              <td class="outro">Exemplo de pergunta</td>
+              <td>2023-05-01</td>
+              <td>2023-05-10</td>
+              <td>
+                <!-- Aqui você pode adicionar botões ou links para ações -->
+                <button class="editar">Editar</button>
+                <button>Excluir</button>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jane Smith</td>
+              <td class="outro">Outra pergunta</td>
+              <td>2023-05-05</td>
+              <td>2023-05-15</td>
+              <td>
+                <!-- Aqui você pode adicionar botões ou links para ações -->
+                <button class="editar">Editar</button>
+                <button>Excluir</button>
+              </td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+          </tbody>
+        </table>
+      </div>
+    
+</body>
+</html>

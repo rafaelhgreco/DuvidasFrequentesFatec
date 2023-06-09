@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatec Itapira FAQ</title>
+    <link rel="stylesheet" href="stylesprincipal/stylesprincipal.css" >
+    <link rel="stylesheet" href="style1600x900/media1.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        
+        <p id="ctajuda">Central de Ajuda</p>
+        <a href="login.html" target="_blank"><button id="login" >Realizar Login</button></a>
+        <a href="enviarpergunta.html" target="_blank"><button id="pergunta">Enviar uma Pergunta</button></a>
+        
+        
+        
+        
+    </header>
+
+    <main>
+        <div class="background-div">
+          <h2>Precisa de Ajuda?</h2>
+          <h5>Clique em um tópico abaixo para começar.</h5>
+        </div>
+        
+        <div class="tabuleiro">
+            <div class="linha">
+              <a href="subpag4.html" target="_blank"><button class="icone">
+                <img id="lampada" src="imagens/lampada.png" width=50px>
+                <p class="textoicone">Projetos e TCC</p>
+              </button></a>
+              
+            <a href="subpag2.html" target="_blank"><button class="icone">
+              <img id="interrog" src="imagens/interrog.png" width=70px>
+              <p class="textoicone" id="hraulas">Principais Perguntas</p>
+            </button></a>
+              
+            </div>
+
+
+            <div class="linha">
+              <a href="subpag1.html" target="_blank"><button class="icone">
+                <img id="iconmatri" src="imagens/contact-form.png" width="45px">
+                <p class="textoicone" id="txtmat">Matrícula</p>
+              </button></a>
+
+
+              <a href="subpag3.html" target="_blank"><button class="icone">
+                <img id="docentes" src="imagens/docentes.png" width=75px>
+                <p class="textoicone" id="salaslabs">Coordenação e docentes</p>
+              </button></a>
+
+            </div>
+        </div>
+        <p id="duvidasgerais">Dúvidas Gerais</p>
+        <div class="txt">
+            <section>
+              <h1 class="titulopergunta"> O que é a Fatec de Itapira?</h1>
+              <div class="conta">
+                <p class="txtteste">A Fatec (Faculdade de Tecnologia de Itapira) é uma instituição que oferece curso de nível superior (faculdade) em Tecnologia.</p>
+              </div>
+
+              
+            </section>
+
+            <section class="tt">
+              <h1 class="titulopergunta">O que é o Vestibular?</h1>
+              <div class="conta">
+                <p class="txtteste">É um processo seletivo que seleciona candidatos para as Faculdades de Tecnologia do Estado (Fatecs).</p>
+              </div>
+            </section>
+
+            <section>
+              <h1 class="titulopergunta">Como faço para me inscrever no vestibular?</h1>
+              <div class="conta">
+                <p class="txtteste">Todas as informações no site: www.vestibularfatec.com.br</p>
+              </div>
+            </section>
+
+            <section>
+              <h1 class="titulopergunta">Quanto é a mensalidade da Fatec?</h1>
+              <div class="conta">
+                <p class="txtteste">Todos os cursos da Fatec de Itapira são gratuitos, pois é uma instituição estadual, mantida pelo Centro Paula Souza.</p>
+              </div>
+            </section>
+        </div>
+
+        <div class="txt2">
+          <section> 
+            <h1 class="titulopergunta">Quanto tempo dura o curso da Fatec?</h1>
+            <div class="conta">
+              <p class="txtteste">Em média nossos cursos tem duração de 3 anos. </p>
+            </div>
+          </section>
+
+          <section>
+            <h1 class="titulopergunta">Quais são os cursos oferecidos pela Fatec de Itapira?</h1>
+            <div class="conta">
+              <p class="txtteste">Oferecemos o Curso de Tecnologia em Gestão da Produção Industrial, Gestão Empresarial e Desenvovimento de Software Multiplataforma e Gestão da Tecnologia da Informação.</p>
+            </div>
+          </section>
+
+
+        <section>
+          <h1 class="titulopergunta">O que é tecnólogo?</h1>
+          <div class="conta">
+            <p class="txtteste">Essa modalidade de graduação visa formar especialistas para atender campos específicos do mercado de trabalho.</p>
+          </div>
+        </section>
+        </div>
+        <script>
+          const elementH1 = document.querySelector('section h1');
+          const conta = document.querySelector('.conta');
+
+          elementH1.addEventListener('click', () => {
+            conta.classList.toggle('active')
+          });
+        </script>
+
+        
+    </main>
+
+    <footer>
+      <p class="fottxt">Copyright © 2023 Fatec Dr. Ogari de Castro Pacheco. Todos os direitos reservados.</p>
+      <p class="fottxt">Endereço: R. Tereza Lera Paoletti, 590 - Bela Vista, Itapira - SP, 13974-080</p>
+      <p class="fottxt">Telefone: (19) 3843-1996</p>
+    </footer>
+    
+</body>
+</html>

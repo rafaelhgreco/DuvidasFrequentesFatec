@@ -1,0 +1,31 @@
+@media screen and (max-width: 1600px) and (max-height: 900px) { 
+    body{
+        background-color: #dadada;
+    }
+    .table-container{
+        width: 60%;
+    }
+    td {
+        padding: 50px;
+    }
+    #voltar {
+        position: relative;
+        left: 850px;
+    }
+
+    .nav {
+        padding: 4px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+    
+    span {
+        display: flex;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+
+}

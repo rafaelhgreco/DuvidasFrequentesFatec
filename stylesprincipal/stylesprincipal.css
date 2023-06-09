@@ -1,0 +1,389 @@
+body {
+position: relative;
+width: 1920px;
+height: 1080px;
+background: lightgrey;
+}
+
+#pergunta {
+position: absolute;
+width: 170px;
+height: 60px;
+left: 1670px;
+top: 100px;
+background-color: #300006;
+border-radius: 20px;
+
+    
+font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#pergunta:hover {
+  background-color: lightgrey;
+}
+
+header {
+background-image: url(bgh.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+position: absolute;
+width: 1920px;
+height: 280px;
+left: 0px;
+top: 0px;
+
+}
+.background-div {
+position: absolute;
+width: 1000px;
+height: 114px;
+left: 20px;
+top: 150px;
+
+
+
+}
+#fatec {
+position: absolute;
+margin-top: -20px;
+}
+
+h2 {
+position: absolute;
+width: 627px;
+height: 61px;
+left: 646px;
+top: -30px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+text-align: center;
+letter-spacing: 0.05em;
+background-color: #300006;
+border-radius: 10px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+h5 {
+position: absolute;
+width: 599px;
+height: 30px;
+left: 660px;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+background-color: #300006;
+border-radius: 10px;
+}
+
+.txt {
+position: absolute;
+width: 806px;
+height: 451px;
+left: 20px;
+top: 565px;
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+    
+color: #000000;
+}
+.txt2 {
+position: absolute;
+width: 634px;
+height: 402px;
+left: 1130px;
+top: 565px;
+}
+.txtteste{
+  text-align: center;
+}
+p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+}
+
+#duvidasgerais {
+  position: absolute;
+  width: 278px;
+  height: 43px;
+  left: 833px;
+  top: 461px;
+  background-color: #300006;
+  border-radius: 12px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#matricula {
+position: absolute;
+width: 300px;
+height: 150px;
+left: 73px;
+top: 389px;
+}
+
+#TCC {
+position: absolute;
+width: 300px;
+height: 150px;
+left: 406px;
+top: 389px;
+}
+
+#aulas {
+position: absolute;
+width: 300px;
+height: 150px;
+left: 73px;
+top: 584px;
+}
+
+#labs {
+position: absolute;
+width: 300px;
+height: 150px;
+left: 406px;
+top: 580px;
+}
+
+#fatec {
+position: absolute;
+width: 128px;
+height: 95px;
+left: 25px;
+top: 22px;
+}
+
+#ctajuda {
+position: absolute;
+width: 240px;
+height: 40px;
+left: 12px;
+top: -10px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 35px;
+letter-spacing: 0.01em;
+background-color: #300006;
+border-radius: 12px;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#login:hover {
+  background-color: #c4c4c4;
+}
+
+
+
+#login {
+position: absolute;
+width: 170px;
+height: 60px;
+left: 1670px;
+top: 29px;
+background-color: #000000;
+border-radius: 20px;
+
+    
+font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+a {
+  text-decoration: none;
+}
+.icone {
+
+width: 200px;
+height: 200px;
+background-color: #ffff;
+margin-right: 80px;
+margin-bottom: 80px;
+top: 500px;
+position: relative;
+width: 250px;
+height: 130px;
+display:flex;
+justify-content:center;
+align-items: center;
+color:black;
+font-size:24px;
+border-top: 0.5px solid rgba(0, 0, 0, 0.5);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+}
+
+.icone:hover{
+  background-color:lightgray;
+}
+
+.tabuleiro {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    right: 400px;
+    bottom: 190px;
+  }
+  
+  .linha {
+    display: flex;
+  }
+  
+  .celula {
+    width: 200px;
+    height: 200px;
+    background-color: #ffff;
+    margin-right: 80px;
+    margin-bottom: 80px;
+  }
+
+.textoicone {
+  position: relative;
+  top: 30px;
+  right: 28px;
+}
+
+
+
+
+#lampada {
+  position: relative;
+  bottom: 25px;
+  left: 65px;  
+}
+
+#iconmatri {
+  bottom: 20px;
+  position: relative;
+  left: 45px;
+
+}
+
+#txtmat {
+  left: -20px;
+}
+
+.titulopergunta {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+
+color: #C6001A;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#salaslabs {
+  left: -30px;
+}
+
+#hraulas {
+  left: -30px;
+}
+
+
+footer {
+  position: absolute;
+  bottom: -100px;
+  
+  width: 100%;
+  height: 10%;
+  background-color: #000000;
+}
+
+.fottxt {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+h1 {
+  position: relative;
+  background-color: lightgrey;
+  border-radius: 10px;
+  z-index: 99;
+}
+
+.conta {
+  position: relative;
+  transform: translateY(-95%) scaleY(0);
+  transition: 1s;
+}
+
+h1:hover ~ .conta {
+  transform:translateY(0) scaleY(1);
+}
+
+.active { 
+  transform: translateY(0) scale(1);
+}
+
+#interrog {
+  position: relative;
+  top: -25px;
+  left: 80px;
+}
+
+#docentes {
+  position: relative;
+  left: 80px;
+  top: -20px;
+}

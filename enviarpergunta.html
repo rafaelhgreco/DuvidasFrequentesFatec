@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesprincipal/styleenviarpergunta.css" >
+    <title>Enviar uma pergunta</title>
+</head>
+
+<body>
+    <div id="box">
+        <form> 
+            <h1>Envie uma pergunta a nossa equipe!</h1>
+            <div id="menu"> 
+                <input class="inputs" type="text" value="Digite seu nome..">
+                
+               <select id="curso">
+                    
+                    <option value="DSM" selected>Desenvolvimento Software Multiplataforma</option>
+                    <option value="GE" selected>Gestão Empresarial</option>
+                    <option value="GPI" selected>Gestão da Produção</option>
+                    <option value="GTI" selected>Gestão Tecnologia da Informação</option>
+                    <option value="GTI" selected>Funcionario(a) da Fatec</option>
+                    <option value="GTI" selected>Ex-aluno ou Ingressante</option>
+                </select>
+
+                <textarea>Escreva a pergunta..</textarea>
+                
+                <br>
+                <br>
+                
+                
+            </div>
+        
+            <br>
+            <div id="veri"> 
+                <input class="bt1" type="checkbox" value="Verificar">
+                <label>Concorda com os termos da fatec.</label>
+                <br>
+                <br>
+                <input class="bt1" id="bt11" type="submit" value="Limpar">
+            </div>
+            <br>
+            <button id="botao">Enviar uma Pergunta</button>
+        </form>
+    </div>
+    <script>
+        const elementBT = document.querySelector('button');
+        elementBT.addEventListener('click', () => {
+            window.alert('Pergunta enviada com sucesso!')
+        });
+        
+    </script>
+</body>
+</html>

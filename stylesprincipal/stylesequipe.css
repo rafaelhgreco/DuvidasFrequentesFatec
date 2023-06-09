@@ -1,0 +1,161 @@
+body {
+    background-color: #DADADA;
+   
+    font-family: 'Montserrat';
+  
+  }
+  header {
+      position: absolute;
+      width: 1920px;
+      height: 100px;
+      left: 0px;
+      top: 0px;
+  
+      background: #300006;
+  } 
+
+
+  #painel {
+      position: absolute;
+      width: 98px;
+      height: 37px;
+      left: 50px;
+      top: -15px;
+  
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 37px;
+      /* identical to box height */
+  
+  
+      color: #ebebeb;
+  }
+  #back {
+    left: -5px;
+    top: 10px;
+  }
+
+  .menu-link {
+      text-decoration: none;
+      color: #ebebeb;
+      padding: 30px;
+      position: relative;
+      left: 400px;
+      top: 8px;       
+    }
+    
+    .menu-link:hover {
+      background-color: #c4c4c4;
+    }
+    
+    .menu-text {
+      display: inline-block;
+      margin-right: 5px;
+    }
+    
+   
+  
+  #voltar {
+      position: relative;
+      left: 1100px;
+  }
+  
+  ul {
+      position: relative;
+      top:200px;
+      left:100px;
+      list-style: none;
+      background-color: #a5a5a5;
+      width: 11%;
+  }
+  
+  li {
+      text-align: center;
+      padding: 20px;
+  }
+  
+
+
+  
+table {
+    
+      border: 1px solid #ebebeb;
+      border-radius: 20px;
+      background-color: #ebebeb;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      
+}
+  
+
+ 
+td {
+  padding: 90px;
+  text-align: center;
+  
+}
+.nomepessoa {
+  position: relative;
+  top: -30px;
+}
+
+  #tituloperg {
+    text-align: center;
+    padding: 20px;
+  }
+  #tituloperg2 {
+    padding: 30px;
+  }
+  
+  .nav {
+    height: 120px;
+    width: 170px;
+    background-color: lightgray;
+    border-radius: 25px;
+    margin-left: -20px;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+
+
+img {
+  position: relative;
+  left: -1px;
+  top: 6.5px;
+}
+
+button {
+  padding: 5px;
+  width: 100px;
+  border-radius: 20px;
+  border-color: red;
+}
+
+button:hover {
+  color:red;
+}
+
+.table-container {
+ 
+  max-width: 1300px;
+  max-height: 500px;
+  overflow: auto;
+  position: relative;
+  top: -700px;
+  left: 440px;
+
+ }
+
+.imgadmin {
+  left: -100px;
+  top: 40px;
+}
+
+.user-profile {
+  position: relative;
+  right: 1px;
+  top: 10px;
+  
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesprincipal/configcontastyle.css" >
+    <title>Configurações da conta</title>
+</head>
+
+<body>
+    <div id="box">
+        <form> 
+            <h1>Configurações da conta</h1>
+            <div id="menu"> 
+                <input  id="nome" class="inputs" type="text" value="Alterar Nome">
+                <br><br>
+                <input  id="nome" class="inputs" type="text" value="Alterar E-mail">
+                
+                <br><br><br>
+                <input class="inputs" type="text" value="Nova senha">
+                <input class="inputs" type="text" value="Senha antiga">
+
+                
+            </div>
+        
+            <div id="veri"> 
+                <input class="bt1" type="checkbox" value="Verificar">
+                <label>Concorda com os termos da fatec.</label>
+                <br>
+                <br>
+                <input class="bt1" id="bt11" type="submit" value="Limpar">
+            </div>
+            <br>
+            <button id="botao">Fazer Alterações </button>
+        </form>
+    </div>
+    <script>
+        const elementBT = document.querySelector('button');
+        elementBT.addEventListener('click', () => {
+            window.alert('Alterações realizadas com sucesso!')
+        });
+        
+    </script>
+</body>
+</html>

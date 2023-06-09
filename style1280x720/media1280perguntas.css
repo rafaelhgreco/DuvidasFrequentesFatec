@@ -1,0 +1,29 @@
+@media screen and (max-width: 1280px)  { 
+   
+    #voltar {
+        position: relative;
+        left: 500px;
+    }
+
+    .table-container{
+        position: relative;
+        right: 80px;
+        bottom: 150px;
+    }
+
+    ul {
+        width: 175px;
+    }
+
+    span {
+        display: flex;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    
+    #perg {
+      position: absolute;
+      left: 365px;
+    }
+}

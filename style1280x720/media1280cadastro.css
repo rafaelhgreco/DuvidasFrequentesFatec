@@ -1,0 +1,37 @@
+@media screen and (max-width: 1280px)  { 
+   
+    #voltar {
+        position: relative;
+        left: 500px;
+    }
+
+    .table-container{
+        position: relative;
+        right: 80px;
+        bottom: 150px;
+    }
+
+    ul {
+        width: 175px;
+    }
+
+    span {
+        display: flex;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    
+    table {
+        position: relative;
+        left: 400px;
+        margin-top:90px;
+        
+    }
+
+    td {
+        padding: 30px;
+        
+    }
+    
+}
