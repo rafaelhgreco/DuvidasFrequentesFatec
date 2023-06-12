@@ -28,4 +28,12 @@
         left: 20px;
     }
 
+    #tabela2 {
+        width: 1000px;
+    }
+
+    .imgadmin {
+        display: block;
+        left: -80px;
+    }
 }
