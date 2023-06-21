@@ -387,3 +387,15 @@ h1:hover ~ .conta {
   left: 80px;
   top: -20px;
 }
+
+.iconhead {
+  position: relative;
+  top: 120px;
+  left: 20px;
+  padding: 8px;
+}
+
+.iconhead:hover {
+  background-color: lightgrey;
+  border-radius: 20px;
+}
