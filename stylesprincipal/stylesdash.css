@@ -1,6 +1,5 @@
 body {
   background-color: #dadada;
-  
   font-family: 'Montserrat';
   
 }
@@ -18,6 +17,7 @@ header {
 li {
   text-align: center;
   padding: 20px;
+  
 }
 
 
